@@ -4,7 +4,6 @@ import * as path from 'path';
 import * as fs from 'fs-extra';
 import { run } from './fn/shell';
 
-
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const nsfw = require('nsfw');
 
