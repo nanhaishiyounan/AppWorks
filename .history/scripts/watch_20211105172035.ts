@@ -8,8 +8,6 @@ import { run } from './fn/shell';
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const nsfw = require('nsfw');
 
-
-
 async function watchFiles(cwd, ext) {
   const files = glob.sync(ext, { cwd, nodir: true });
 
